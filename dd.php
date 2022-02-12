@@ -96,7 +96,7 @@ $password = trim(fgets(STDIN));
 $password = "\"$password\"";
 
 $url_daftar = "https://api.alfagift.id/v1/account/member/create";
-$random_name = "Jessica"." ".substr(str_shuffle("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 5);
+$random_name = "Maria S"." ".substr(str_shuffle("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 5);
 $random_email = substr(str_shuffle("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 8);
 $random_name = "\"$random_name\"";
 $random_email = "\"$random_email@gmail.com\"";
@@ -168,7 +168,7 @@ $heder_jadi = array(
     }
  }
 
-goto welcome;
+die;
 
 
 
